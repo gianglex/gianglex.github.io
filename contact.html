@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giang Le</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigaatio -->
+    <nav class="navbar">
+        <!-- Navigaatio linkit -->
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="experience.html">Experience</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <!-- Mobiilivalikko -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Mobiililinkit -->
+        <div class="nav-links mobile" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="experience.html">Experience</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- Valikko JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById("mobileMenu");
+            mobileMenu.classList.toggle("show");
+        }
+    </script>
+
+    <div class="index-container">
+        <div class="contact">
+            <h1>Contact</h1>
+            <h2>Giang Le</h2>
+            <h3>Email: <a href="mailto:giang.le@iki.fi" style="color: #1278ab">giang.le@iki.fi</a></h3>
+            <h3>Phone: <a href="tel:+358443429926" style="color: #1278ab">044 342 9926</a></h3>
+            <h3> <a href="linkedin.com"><img src="/Verkkosivu/pictures/linkedin.png" width="50px"></a> <a
+                    href="instagram.com"><img src="/Verkkosivu/pictures/instagram.png" width="50px"></a></h3>
+        </div>
+    </div>
+</body>
+
+</html>

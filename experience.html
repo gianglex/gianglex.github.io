@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giang Le Experience</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigaatio -->
+    <nav class="navbar">
+        <!-- Navigaatio linkit -->
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="experience.html">Experience</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <!-- Mobiilivalikko -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Mobiililinkit -->
+        <div class="nav-links mobile" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="experience.html">Experience</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- Valikko JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById("mobileMenu");
+            mobileMenu.classList.toggle("show");
+        }
+    </script>
+
+    <div class="page-container">
+        <!-- Experience -->
+        <div class="exp-header">
+            <h1 class="exptitle">Experience</h1>
+        </div>
+        <!-- Eka -->
+        <div class="exp-container">
+            <div class="exp">
+                <h1>HypeHype Oy</h1>
+                <h2>Business Administrator</h2>
+                <p>Administrator / ICT-Consultant / Account Manager</p>
+            </div>
+            <div class="exp-logo">
+                <img src="/Verkkosivu/pictures/hypehype.png" alt="hypehype logo">
+            </div>
+        </div>
+
+        <!-- Toka -->
+
+        <div class="exp-container">
+            <div class="exp">
+                <h1>Enterprise</h1>
+                <h2>Project Manager</h2>
+                <p>Development Lead / Frontend Developer</p>
+            </div>
+            <div class="exp-logo">
+                <img src="/Verkkosivu/pictures/enterprise.jpeg" alt="hypehype logo">
+            </div>
+        </div>
+
+        <!-- Kolmas -->
+        <div class="exp-container">
+            <div class="exp">
+                <h1>Haaga-Helia</h1>
+                <h2>Bachelor of Business Administration</h2>
+                <p>Business Information Technology</p>
+            </div>
+            <div class="exp-logo">
+                <img src="/Verkkosivu/pictures/haagahelia.jpeg" alt="hypehype logo">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
