@@ -175,7 +175,6 @@ h1.exptitle {
     color: #1278ab;
 }
 
-/* Each Skill Section */
 .skill {
     margin-bottom: 1.5rem;
 }
@@ -187,7 +186,7 @@ h1.exptitle {
     font-family: "Exo 2", sans-serif;
 }
 
-/* Skill Bar Background */
+/* Skill Bar */
 .skill-bar {
     width: 100%;
     background-color: #e0e0e0;
@@ -195,7 +194,7 @@ h1.exptitle {
     overflow: hidden;
 }
 
-/* Skill Level Bar */
+/* Skill pylväs */
 .skill-level {
     height: 2.5vw;
     background-color: #1278ab;
@@ -231,24 +230,18 @@ h1.exptitle {
     font-size: 5vw;
     line-height: 1.6;
     font-family: 'Lato', sans-serif;
-    /* Apply your font */
 }
 
 .contact h3 {
     font-size: 3vw;
     line-height: 1.6;
     font-family: 'Dosis', sans-serif;
-    /* Apply your font */
 }
 
 img.Image {
     max-width: 100%;
 }
 
-/*
-div#ImageContainer {
-    width: 60vw;
-} */
 
 /* ---------- ---------- ---------- ---------- ---------- */
 /* ---------- ---------- ---------- ---------- ---------- */
@@ -367,7 +360,6 @@ div#ImageContainer {
         max-width: 150px;
     }
 
-    /* Scale down padding */
     .skills-container,
     .index-container,
     .page-container {
@@ -389,10 +381,8 @@ div#ImageContainer {
     .page-container {
         max-width: 1200px;
         margin: 0 auto;
-        /* Center the page-container */
         left: 0;
         right: 0;
-        /* Center it */
     }
 }
 
