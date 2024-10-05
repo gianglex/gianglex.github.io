@@ -33,7 +33,7 @@ body {
 /* ---------- ---------- ---------- ---------- ---------- */
 /* Index Background */
 .index-container {
-    background-image: url("/pictures/Transparent\ v2.png"), url("/pictures/bg2.jpg");
+    background-image: url("pictures/Transparent\ v2.png"), url("pictures/bg2.jpg");
     background-size: auto 100%, cover;
     background-position: right center, center;
     background-repeat: no-repeat, no-repeat;
