@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigaatio -->
+    <nav class="navbar">
+        <!-- Navigaatio linkit -->
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Experience</a>
+            <a href="#">Skills</a>
+            <a href="#">Contact</a>
+        </div>
+        <!-- Mobiilivalikko -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Mobiililinkit -->
+        <div class="nav-links mobile" id="mobileMenu">
+            <a href="#">Home</a>
+            <a href="#">Experience</a>
+            <a href="#">Skills</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- Valikko JavaScript -->
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('show');
+        }
+    </script>
+
+    <div class="index-container">
+        <div>
+            <h1>Giang Le</h1>
+            <h2>Project Manager / Business Administrator / System</h2>
+            <h2>Administrator / ICT-Consultalt / Account Manager</h2>
+        </div>
+    </div>
+</body>
+
+</html>
