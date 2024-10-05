@@ -33,7 +33,7 @@ body {
 /* ---------- ---------- ---------- ---------- ---------- */
 /* Index Background */
 .index-container {
-    background-image: url("/Verkkosivu/pictures/Transparent\ v2.png"), url("/Verkkosivu/pictures/bg2.jpg");
+    background-image: url("/pictures/Transparent\ v2.png"), url("/pictures/bg2.jpg");
     background-size: auto 100%, cover;
     background-position: right center, center;
     background-repeat: no-repeat, no-repeat;
@@ -71,7 +71,7 @@ h2.index {
 /* ---------- ---------- ---------- ---------- ---------- */
 /* Page Background Settings */
 .page-container {
-    background-image: url("/Verkkosivu/pictures/bg2.jpg");
+    background-image: url("/pictures/bg2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
